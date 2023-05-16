@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet"href="./style.css">
+
+</head>
+<body>
+    <h3>Reservation Request</h3>
+    <form>
+        <fieldset><legend>General Information</legend>
+            <div>
+        <label>Arrival Date</label>
+        <input type="text" name="Arrival date">
+        </div>
+       <br> <div>
+        <label>No.of Nights</label>
+        <input type="text" name="Nights">
+        </div>
+        <br><div>
+            <label>Adults</label>
+            <select name="Adults">Adults
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+        <br><div>
+            <label>Children</label>
+            <select name="Children">Children
+                <option value="0">0</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+          </select>
+        </div>
+        </fieldset>
+        <fieldset><legend>Preferences</legend>
+          <div>
+            <p>Room type:</p>
+            <input type="radio"name="Standard" checked>
+            <label>Standard</label>
+            <input type="radio" name="Business">
+            <label>Business</label>
+            <input type="radio" name="Suite">
+            <label>Suite</label>
+          </div>
+          <br><div>
+            <p>Bed type:</p>
+            <input type="radio" name="King"checked>
+            <label>King</label>
+            <input type="radio" name="Double Double">
+            <label>Double Double</label>
+          </div>
+          <br><div>
+            <p>Smoking:</p>
+            <input type="radio" name="Not Allow"checked>
+            <label>Not Allow</label>
+            <input type="radio" name="Allow">
+            <label>Allow</label>
+          </div>
+          <div>
+            <p>Food</p>
+            <input type="checkbox" name="Rice">
+            <label>Rice</label>
+            <input type="checkbox" name="Noodles">
+            <label>Noodles</label>
+            <input type="checkbox" name="Yam Sauce">
+            <label>Yam Sauce</label>
+            <input type="checkbox" name="Soup">
+            <label>Soup</label>
+          </div>
+        </fieldset>
+        <fieldset><legend>Contact Information</legend>
+            <div>
+                <label>Name</label>
+                <input type="text" name="Name">
+            </div>
+            <br><div>
+                <label>Email</label>
+                <input type="text" name="Email">
+            </div>
+            <br><div>
+                <label>Phone</label>
+                <input type="number" name="Phone">
+            </div>
+            <br><div>
+                <label>Home Address</label>
+                <input type="text" name="Home Address">
+            </div>
+            <br><div>
+                <label>Description</label>
+                <textarea name="Description" id="" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <input type="button" name="Submit Reservation" value="Submit Reservation">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" name="Clear" value="Clear">
+    </form>
+       
+
+    
+</body>
+</html>
